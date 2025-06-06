@@ -1,0 +1,167 @@
+---
+title: "Trading Strategy"
+output: html_notebook
+---
+The purpose of this notebook is to use statistic and plotting packages on the 
+explosive_data_clean.csv file to uncover patterns that might help establish
+a profitable trading strategy. For a definition of column attributes please 
+reference the attached READ ME in the Git Hub repository.
+
+I begin by importing tha packages I will use. Then I import the dataset and
+assign it to the variable 'data'
+```{r}
+library(tidyverse)
+library(lmtest)
+data = read.csv('explosive_data_clean.csv', header = TRUE)
+head(data)
+```
+Notice that all columns have been cast as character even though they are 
+intended to be numeric. For data I wish to run functions on I will need to 
+convert to numeric data types.
+```{r}
+data$three_day_return <- as.numeric(as.character(data$three_day_return))
+data$daily_increase <- as.numeric(as.double(data$daily_increase))
+data$short_percent <- as.numeric(as.double(data$short_percent))
+```
+
+
+
+I want to start by looking at three_day_return based on rsi and flag color. 
+```{r}
+ggplot(
+   data = data,
+  mapping = aes(x = three_day_return, y = rsi)
+) + geom_point(mapping = aes(color = flag)
+) +  scale_color_manual(values = c("B" = "blue", "G" = "green",
+                                     'P' = "purple", "R" = 'red', 
+                                     'Y' = 'yellow')
+) + geom_vline(xintercept = 0, linetype = 'solid', color = 'black')
+```
+Things that stand out from this plot..
+
+1) Red flag trades are all less than 55 RSI and there are significantly more
+losers than winners.
+
+2) There were the same number of purple winners and losers and the winner on 
+average won more than the losers.
+
+3) Blue flags appear to have a moderate negative correlation with profits where
+a higher RSI yields lagrer losses.
+
+4) There appears to be the presence of heteroscedasticity in the data, where as
+RSI increases the variance of profit and loss becomes greater.
+
+Now I will run some basic commands to quantify and verify my visual.
+observations.
+```{r}
+R_flag_data <- filter(data, flag == 'R')
+R_flag_winners <- filter(R_flag_data, three_day_return > 0.0)
+R_flag_losers <- filter(R_flag_data, three_day_return < 0.0)
+
+P_flag_data <- filter(data, flag == 'P')
+P_flag_winners <- filter(P_flag_data, three_day_return > 0.0)
+P_flag_losers <- filter(P_flag_data, three_day_return < 0.0)
+P_avg_winner <- round(mean(P_flag_winners$three_day_return))
+P_avg_loser <- round(mean(P_flag_losers$three_day_return))
+
+B_flag_data <- filter(data, flag == 'B')
+cor(B_flag_data$rsi, B_flag_data$three_day_return, use = "complete.obs")
+
+model <- lm(rsi ~ three_day_return, data = data)
+breusch_pagan_test <-bptest(model)
+breusch_pagan_test
+```
+
+The results from this analysis shows that..
+
+
+1) There are in fact 7 Winners and 13 losers under the red flags
+
+2) There were 11 and 11 respectivly with the winner 
+returning a mean profit of 12% and losers returning a mean loss of 7%.
+
+3) There is in fact a -.38 correlation between RSI and three_day_returns for
+blue flags.
+
+4) The Breusch-Pagan test return a BP statistic of .13 and a P-value of .71
+which is not significant. There is not strong evidence of the presence of
+heteroscedasticity in the data.
+
+
+Next I want to see how daily_increase impacts three_day_return.
+```{r}
+ggplot(
+   data = data,
+  mapping = aes(x = three_day_return, y = daily_increase)
+) + geom_point(mapping = aes(color = flag)
+) +  scale_color_manual(values = c("B" = "blue", "G" = "green",
+                                     'P' = "purple", "R" = 'red', 
+                                     'Y' = 'yellow')
+) 
+```
+
+Just by looking at this graph it appears that avoiding trades with a
+daily_increase greater than 50 eliminates 6 losers while keeping nearly all of
+my largest winners.
+
+
+Finally, I want to look at how short_percent impacts three_day_return.
+```{r}
+ggplot(
+   data = data,
+  mapping = aes(x = three_day_return, y = short_percent)
+) + geom_point(mapping = aes(color = flag)
+) +  scale_color_manual(values = c("B" = "blue", "G" = "green",
+                                     'P' = "purple", "R" = 'red', 
+                                     'Y' = 'yellow')
+) 
+```
+Looking at this graph I can see that avoiding trades in stocks that are shorted 
+more than 20% will remove 7 losers and only 1 winner. 
+
+
+Based off the information I have gathered from this analysis I want to begin 
+formulating my strategy. 
+
+--I will only take trades that are above 55 RSI.
+
+--I will only take trades with a short % less than 20.
+
+--I will only take trades that have a daily increase of less than 50%.
+
+--I will only hold trades for three days and sell at the close of the third day.
+
+
+Applying these limitations to the data my theoretical strategy will yield...
+
+37 Winners and 51 Losers with a win percent of 42%
+
+Average profit of 17.2% 
+
+Average loss of 9%
+
+Total Profit 636.9%
+
+Total Loss 458.9%
+
+A Net Profit of 178%
+```{r}
+rsi_filter <- filter(data, rsi > 55)
+short_per_filter <- filter(rsi_filter, short_percent < 20)
+strategy <- filter(short_per_filter, daily_increase < 50)
+
+num_winner <- sum(strategy$three_day_return > 0)
+win_avg_per <- mean(strategy$three_day_return[strategy$three_day_return > 0])
+total_profit <- sum(strategy$three_day_return[strategy$three_day_return > 0])
+
+num_loser <- sum(strategy$three_day_return < 0)
+loss_avg_per <- mean(strategy$three_day_return[strategy$three_day_return < 0])
+total_loss <- sum(strategy$three_day_return[strategy$three_day_return < 0])
+
+hist(strategy$three_day_return,breaks = 10)
+boxplot(strategy$three_day_return[strategy$three_day_return > 0])
+```
+ggplo
+
+
+

@@ -1,0 +1,168 @@
+row,,FLAG,% increase,News,highs,inital/secondary,rsi,short %,Volume(thousand),Industry,3 day return,1 week return,2 week return,ABS HIGH,2nd day,NOTES,,,,,,After new
+1,KRKR,B ,5.3,no,30,Initial,58,,20,Tech,2.6,163.04,67.6,257.5,DG,,,,,,,n
+2,ABCL,P,15.4,Earn Announcment,6 mo,second,66,8.3,3000,health tech,-5,-9.49,,0,DG,RSI did not pass previous RSI,,,,,,n
+3,PRTS,P,13.9,NASDAQ compliance,6 mo,second,70,1.1,400,retail,-5.8,-12.9,,0,DR,RSI did not pass previous RSI,,,,,,n
+4,REBN,G,18,recent buisness,14,second,58,16,135,retail,93.9,160.3,144.5,289.1,UG,,,,,,,yes
+5,OPTX,Y,18.4,no,7,second,52,4.4,238,tech,-8.9,-12.6,-15,0,DR,,,,,,,n
+6,DTST,Y,8.4,new partnership,7,second,59,8.5,66,tech,-6.9,,,4.9,UG,RSI did not pass previous RSI,,,,,,yes
+7,SOPH,G,12.5,no,60,Initial,70,0.07,120,tech,21.7,-2.3,-2.3,31.8,UG,new high higher rsi,,,,,,n
+8,LTRN,Y,10.3,no,7,second,67,2.44,80,health tech,32.9,15.2,17.8,47.1,UG,new high higher rsi,,,,,,yes
+9,DH,G,11.9,upgrade,7,initial,65,4.81,800,tech,9.7,13.6,16.6,16.8,UG,,,,,,,n
+10,AVAH,G,6.5,no,30,cont,56,3.2,129,health  ,-2.4,-2.8,-5.6,0,DR,,,,,,,n
+11,MARPS,P,8,recent buisness,7/52,second,75,,15,misc,-12,,,0,DR,Would have stopped out/ RSI did not pass previous RSI,,,,,,n
+12,BOSC,Y,5.2,no,7/52,cont,68,1.5,45,tech,-6,,,0,DR,RSI did not pass previous RSI/ long wick,,,,,,yes
+13,OSUR,G,7.4,no,30,inital ,64,2.2,1000,health tech,2.4,-0.2,2.2,5.2,DR,,,,,,,yes
+14,CMRX,P,8.2,NASDAQ compliance,7/52,cont,71,2.42,1000,health tech,3.7,5.6,2.4,8.8,DR,RSI did not pass previous RSI,,,,,,yes
+15,AGEN,G,10.1,no,60,initial,65,12.7,300,health tech,-6.5,-7.4,-8.5,0,DR,,,,,,,n
+16,OXBR,P,12.4,no,7/52,cont,70,0.7,30,Finance,-7.9,-10.8,-9.4,0,DR,RSI did not pass previous RSI,,,,,,n
+17,BRFH,P,18.5,new contract,4 mo,cont,70,0.5,11,retail,5.4,2.3,-1.4,11.9,UG,Long wick,,,,,,yes
+18,SWAG,G,5.3,earnings,30,initial,60,0.43,45,consumer,8.7,6.6,5.9,8.7,UG,Long wick,,,,,,yes
+19,MDIA,R ,7.1,no,14,initial,54,0.71,225,consumer,-8.6,-8.3,,0,DR,Would have stopped out,,,,,,n
+20,ALLK,Y,17.5,no,14,cont,58,1.3,,health tech,-75.6,,,0,DR,Massive loss the next day when trial failure was announced,,,,,,yes
+21,MSS,G,5.3,no,7,cont,50,4,1000,retail,-8,,,0,DR,,,,,,,yes
+22,PRLD,R,6.5,no,,second,55,24.5,400,health tech,-5.8,,,0,DR,,,,,,,n
+23,KNDI,P,6.8,no,60,initial,61,2.22,110,consumer,-12,,,,DR,,,,,,,
+24,KAVL,P,6.6,recent buisness,,second,65,11,1000,distribution,-7.6,,,,DR,,,,,,,
+25,COCH,R,3.9,no,14,initial,48,1.65,30,health tech,-5.3,,,0,DR,,,,,,,
+26,EDSA,B,24.5,no,30,inital,64,0.22,30,health tech,-18.5,2.8,-14.3,,DG,,,,,,,n
+27,SLNH,B,17.4,no,30,initial,59,5.78,475,tech,-24,,,,DR,,,,,,,
+28,SLS,G,39.6,no,6 mo,initial,70,11.4,8000,health tech,-5.6,4.9,-9.1,30.1,DR,,,,,,,yes
+29,NB,P,15.6,upgrade,3 mo,initial,68,0.88,518,minerals,21.6,26.7,41.5,57.4,UG,,,,,,,yes
+30,ICAD,P,17.8,earn,60/52,second,79,0.87,2000,health tech,10,7.5,27.4,32,UG,,,,,,,n
+31,AAME,G,8.9,no,60,initial,64,1.02,11,Finance,4.2,-1.3,-2.7,6.5,UG,,,,,,,n
+32,DXLG,P,10,recent buisness,60,second,68,14.9,300,retail,-8.2,,,0,DR,,,,,,,n
+33,AXDX,G,18.8,recent buisness,14,cont,60,3.17,50,health tech,-5.6,-5.6,-13.4,0,DR,,,,,,,n
+34,XNET,P,7.2,new contract,6mo,cont,72,,500,tech,3.1,-0.3,27.8,27.8,UG,,,,,,,n
+35,SEED,G,7.8,no,30,initial,63,0.61,100,agriculture,-7.5,3.6,10.8,10.8,DR,,,,,,,n
+36,ADVM,R,6.8,no,7,initial,49,12.33,300,health tech,-7.9,,,0,DR,,,,,,,n
+37,EB,G,9.5,upgrade,7,second,56,4.87,1000,tech,-9.6,-10,,0,DR,,,,,,,n
+38,RPID,Y,4,recent buisness,1/52,cont,70,0.47,150,manufactur,33.6,52.9,97.4,120.3,UG,Long bottom wick,,,,,,n
+39,CVGI,R,6.4,recent buisness,14,initial,54,3.98,360,manufactur,-6.4,,,0,DR,,,,,,,n
+40,NRXP,Y,24.6,new contract,7/52,cont,53,7.01,600,health tech,-14.4,-21,,0,DR,,,,,,,n
+41,SGN,B,123.7,new partnership,60,initial,66,20.7,80000,tech,-28.6,-22.2,-41.2,0,DR,,,,,,,n
+42,NITO,Y,11,new partnership,,cont,56,6.2,1200,consumer,4.5,-3.6,-20.4,18.8,DR,,,,,,,yes
+43,STTK,B,11.9,no,21,initial,60,8.1,200,health tech,-9.2,,,0,DR,,,,,,,n
+44,BLBX,Y,5.4,recent buisness,,cont,63,1.1,1000,tech,-8.9,,,0,DR,Inside of a long gapped wick from last week,,,,,,y 
+45,NXGL,B,7.5,Earnings,7,cont,54,1.9,300,Process ind,1.4,-9.4,,11,UG,,,,,,,n
+46,BFLY,Y,16.5,recent buisness,7,cont,58,12.6,5000,health tech,11.8,9.2,13.4,17.2,DR,,,,,,,n
+47,CAN,G,20,no,7,cont,55,,20000,tech,-14.6,,,0,DR,,,,,,,n
+48,GBUX,Y,15.6,recent buisness,7,cont,67,,20,distribution,56.4,63.7,443,443,UR,,,,,,,yes
+49,BBAI,Y,13.2,new contract,7,cont,56,20.6,45,tech,-7.2,,,8.9,UR,Had a 137.4% run over 10 days but just barely touched SL on day 2,,,,,,n
+50,CCM,G,26.3,no,14,second,58,,20,health,-10.1,-8.2,-16,0,DR,,,,,,,n
+51,CRDF,Y,15.1,no,21,cont,57,16.5,1000,health tech,7.5,16.3,4.13,20.4,UG,,,,,,,n
+52,POAI,Y,7.6,recent buisness,7,cont,62,7,250,,-8.7,,,0,DR,,,,,,,y
+53,TMC,Y,11.5,upgrade,7,cont,70,5.4,3600,,4.5,10.3,12.7,17.3,DR,,,,,,,y
+54,ZEO,Y,12.1,recent buisness,,cont,53,0.4,2000,,0.4,2.3,-8.6,12.4,UG,,,,,,,n
+55,TERN,R,11,recent buisness,7,initial,41,13.2,2000,,-3,0.5,-9.5,0,DR,,,,,,,y
+56,FHTX,R,9.1,upgrade,7,initial,42,3.2,150,,-6.5,,,0,DR,,,,,,,n
+57,PDSB,R,9.2,no,7,initial,48,7,150,,-7.2,,,0,DR,,,,,,,y
+58,IVVD,G,196.7,Successful trial,6 mo,initial,78,13.3,100000,,87.1,48.3,-8,11.6,UR,,,,,,,
+59,ATAI,Y,25.5,Upgrade,21,cont,69,9,12000,,14.5,19.9,11.8,37.9,UG,Reached highs of 32 how do I adjust for actual highs,,,,,,n
+60,VERI,G,8.1,Upgrade,21,second,58,14.5,1000,commercial,-1.6,6.6,1.4,15.7,UG,,,,,,,n
+61,GROV,G,8.3,no,14,second,59,6.3,400,consumer,3,4.7,9.1,13.3,UG,,,,,,,y
+62,CLDI,R,40.1,recent buisness,21,initial,54,3.4,10000,health tech,39.9,26.8,22.7,44,UG,,,,,,,n
+63,RGLS,R,17,recent buisness,7,initial,47,3.6,4000,health tech,2.7,-2.4,2.5,28.3,UR,,,,,,,n
+64,GBR,G,12.2,no,14,second,62,0.1,10000,Finance,-6,-9.8,-13.1,0,DR,,,,,,,n
+65,AUST,G,10.9,no,60,inital,62,0.1,240,minerals,-6.2,5.04,0.2,19.4,DR,,,,,,,n
+66,OCTO,R,8.4,no,7,second,49,4.8,5000,Tech,-12.7,,,0,DG,,,,,,,n
+67,BBLG,G,14.3,no,3 mo,initial,65,3.1,300,health tech,-8.6,-18.5,,0,DR ,,,,,,,n
+68,USEG,Y,16.2,recent buisness,7,second,57,0.8,5000,energy,-12.4,,,0,DR ,long upside wick,,,,,,n
+69,SGMT,B,9.2,Upgrade,21,cont,52,26.8,1000,health tech,0.8,-1.7,-9.7,11.2,UG,,,,,,,n
+70,CAPT,G,139.2,no,60,initial,74,0.7,244000,manufacturing,-49.6,-57.6,,0,DR ,long upside wick,,,,,,n
+71,HUBC,P,21.3,recent buisness,7/52,second,70,7.6,11000,commercial,-2.4,-11.4,,21.9,UG,,,,,,,n
+72,DDD,P,23.5,recent buisness,7/52,cont,73,4.1,8200,tech,-7.7,-5.5,-0.2,7.7,UG,,,,,,,yes
+73,NVVE,G,24.9,no,21,initial,57,7.2,15000,manufacturing,-1.8,-7.5,-19,4.3,DG,long upside wick,,,,,,n
+74,AQMS,R,16.5,outlook,14,initial,51,5.5,367,minerals,1,-1.6,14.8,35.4,UG,,,,,,,yes
+75,KRMD,P,9.5,New partnership,60/52,cont,67,1.1,1300,health tech,0.2,1,-4.1,8.6,UG,long upside wick,,,,,,yes
+76,AIRE,B,15.6,recent buisness,7,second,47,7.3,639,tech,15,12.3,15.2,23.8,UG,long upside wick,,,,,,yes
+77,SHMD,R,14.6,no,14,initial,44,0.8,85,finance,-0.9,13.4,46.8,46.8,DR ,,,,,,,n
+78,GIFT,R,16.3,recent buisness,21,initial,50,0.5,102,tech,5.8,11.1,27.8,41.6,UR,,,,,,,yes
+79,MBOT,Y,13.8,outlook,7,second,60,27,2800,health tech,23.6,-1.2,-11.8,27.2,DG,,,,,,,yes
+80,FOSL,G,13.2,recent buisness,21,second,54,4,396,consumer,-2.6,-10.7,,2.1,UG,,,,,,,y
+81,BAOS,Y,9.6,no,21,second,57,7.1,217,commercial,-10.5,-11,,0,DG,,,,,,,n
+82,VLDX,Y,9.5,recent buisness,7,second,58,,16,manufacturing,-7,,,0,DR ,,,,,,,n
+83,SNES,G,8.6,recent buisness,7,second,51,4.3,727,industries,15.6,-0.4,8.7,26.4,UR,long wick,,,,,,yes
+84,SIFY,Y,8.5,no,60,initial,60,,101,tech,8.7,10.7,47.8,47.8,UG,,,,,,,n
+85,SB,B,5.8,recent buisness,21,initial,56,2.6,1300,transportation,-1.9,-0.77,0.6,2.2,UG,,,,,,,yes
+86,KIND,Y,5.9,Upgrade,7,initial,64,1.8,1300,tech,1.4,0,0.4,3.6,UG,,,,,,,n
+87,CRNT,Y,6.4,New aquisition,7,cont,54,0.4,1600,tech,4,-14.9,,14.5,UG,large gap down,,,,,,n
+88,TSVT,R,5,no,21,initial,49,12.3,198,health tech,-4.4,,,4.1,UG,,,,,,,n
+89,EXFY,Y,4.9,recent buisness,60,cont,63,1.2,455,tech,-2.3,-0.8,-6.8,4.1,DG,,,,,,,n
+90,HRTX,Y,7.1,no,7,second,60,26.7,977,health tech,-3.9,-7,,4.8,UG,,,,,,,n
+91,GOTU,B,7,no,7,initial,54,,1800,commercial,4.3,10.4,18.3,33.8,DR ,,,,,,,n
+92,AMLX,R,5.9,upgrade,7,cont,47,6.9,1000,health tech,4.6,-6.6,,8.1,UG,,,,,,,n
+93,GTN,G,9.2,New partnership,60,initial,63,5.4,1900,consumer,-2.7,5.5,1.6,6.7,UG,,,,,,,yes
+94,LCID,G,4.6,no,14,cont,54,21,64000,consumer,-3.4,-4.2,,3.3,DR ,,,,,,,yes
+95,ETWO,B,7.1,no,7,initial,58,6,2400,tech,-2.1,-1.4,-6.6,2.7,UG,,,,,,,n
+96,IXHL,G,10.9,new officer,21,initial,60,0.82,132,health tech,2.8,-11.8,-13.9,10,UG,,,,,,,yes
+97,BCDA,P,6.6,no,3 mo,second,63,1.5,59,health tech,-8.2,,,5.2,DG,,,,,,,yes
+98,SGBX,G,75.2,recent buisness,21,second,70,0.6,31000,manufacturing,-45.3,,,0,DR,,,,,,,n
+99,HKD,G,20.8,no,60,initial,69,,5300,tech,-12.1,,,0,DR,,,,,,,n
+100,PTN,B,14.3,recent buisness,14,second,55,5.1,18000,health tech,0,7,1,16.6,UG,Long upside wick,,,,,,n
+101,JZXN,P,19.2,no,6 mo,second,75,0.3,112,retail,47,50.5,71.2,147.7,UG,Finished strong into the close,,,,,,n
+102,AMTD,G,16.5,new partner,30,initial,64,,347,finance,-8.3,-8.2,-14.1,0,DR,,,,,,,n
+103,AEI,B,10.7,recent buisness,30,second,55,4.9,407,finance,-3.1,16,2.9,30,UR,,,,,,,n
+104,ICU,B,7,new partner,60,initial,64,8.5,570,health tech,-17.3,-12.7,-20,35.7,UR,,,,,,,n
+105,SATL,Y,10.9,no,30,cont,78,0.6,1600,tech,22,40.8,5.6,50.6,UG,,,,,,,n
+106,GETY,G,6,no,14,second,59,9.1,5300,tech,-5.8,,,3.7,DG,,,,,,,n
+107,NCPL,P,6.7,no,30,initial,65,6.1,85,commercial,6.2,-5.6,,11.7,UR,,,,,,,n
+108,APWC,G,6.4,no,60,initial,58,0,13,tech,1.2,5,-2.2,16.9,UG,,,,,,,n
+109,AREN,Y,8.4,earnings,7,cont,55,1.9,31,tech,6.2,12.3,-3.3,22.3,DR,,,,,,,n
+110,MIST,Y,5.8,no,14,cont,62,1,1000,health tech,0,4.5,-6.8,8.1,DR,,,,,,,Yes
+111,MGRX,Y,7.9,no,7,second,62,2.9,253,health tech,4.9,40.7,59.8,60,UG,,,,,,,Yes
+112,SYT,G,5.2,no,14,second,54,,14,tech,-5.2,,,0,DR,,,,,,,n
+113,FLYX,Y,5.4,no,7,cont,61,4.5,100,transportation,-6.6,,,0,DR,,,,,,,n
+114,SCYX,G,5.2,recent buisness,21,initial,59,2.7,240,health tech,-5.7,-6.7,,0,DR,,,,,,,n
+115,ZONE,B,10.6,earnings,,second,55,4.3,200,distribution,-10.1,,,0,DR,,,,,,,n
+116,IBO,Y,20.6,no,,initial,61,0.2,27,tech,-16.7,,,5.1,DR,,,,,,,n
+117,VSEE,G,10.6,New Contract,14,second,61,2,400,tech,-3.5,0.5,1.7,8.7,DR,,,,,,,yes
+118,TPET,G,11.4,New partner,7,cont,53,2.77,600,Energy,-1.7,-5.1,-16.3,0,DR,If I just sell the next day on a security that doesnt move higher how many winners will that cut out?,,,,,,n
+119,BNZI,B,56,New partner,60,initial,61,4.1,5000,tech,-9.9,-10.5,-19.4,39.1,UR,,,,,,,yes
+120,HYMC,G,13.3,New Officer,21,Initial,63,7.7,300,Minerals,2.2,8.8,23,23.3,DR,How many winner will I cut off if I set SL at half?,,,,,,n
+121,ZAPP,B,35.8,earnings,30,Initial,60,15,5000,cosumer,-26.4,,,0,DR,,,,,,,yes
+122,BFRG,P,13.8,recent buisness,21,second,71,8.6,10000,tech,13.5,27.9,-6.6,67.6,UG,,,,,,,n
+123,STTK,G,6.4,no,14,second,59,8.1,132,health tech,-6.6,,,0,DR,,,,,,,n
+124,WYTC,G,29.9,no,60,Initial,74,,16,tech,124.6,124.4,,,UG,,,,,,,n
+125,NOTE,P,28.2,recent buisness,21,cont,65,15.2,6700,tech,16.3,6,,,UG,,,,,,,n
+126,DTI,R,6.8,no,7,Initial,46,2.6,60,finance,1.7,-2.9,,,UG,,,,,,,Yes
+127,BARK,G,9.9,no,7,cont,54,12.6,12000,process,1.6,-5.5,,,DG,,,,,,,Yes
+128,MOBX,G,10,Earnings,14,cont,52,4.7,50000,tech,-9,,,0,DR,,,,,,,n
+129,PMNT,R,9.6,no,7,second,50,0.4,300,retail,-3.9,-3.9,8,22.7,UG,,,,,,,n
+130,KDLY,G,18.3,no,14,initial,57,2.5,8000,health ser,102.7,89,35.8,262.1,UG,,,,,,,n
+131,OPHC,G,5,no,21,initial,63,0.4,40,finance,-1.1,-0.8,-3.8,0,DR,,,,,,,n
+132,GNSS,G,23.7,earnings,60,initial,69,2.2,300,tech,-1.5,-6,-19.3,4.9,UG,,,,,,,n
+133,TTNP,G,12.1,no,60,second,64,3.4,40,health tech,-4.4,-8,-15.3,0,DR,,,,,,,n
+134,NVNO,G,9.3,recent buisness,21,second,62,2.5,200,health tech,5.7,15.1,,,UG,,,,,,,
+135,VIOT,G,8.5,recent buisness,14,initial,54,,120,consumer,18.1,7.8,,,UG,,,,,,,
+136,OPEN,R,12.2,no,14,initial,50,10.7,40000,finance,7.4,0.8,,,UG,,,,,,,
+137,DTSS,B,6.2,earnings,7,second,53,4.8,300,tech,2,7.4,,,UG,,,,,,,
+138,CHR,B,4,recent buisness,7,initial,53,1.1,33,tech,6.6,4.3,,,,,,,,,,
+139,SATL,Y,8,n,30,cont,63,0.6,1000,tech,21.3,40.4,,,UG,,,,,,,
+140,EGHT,G,11.1,recent buisness,14,cont,58,6,1000,tech,4.7,0,,,UG,,,,,,,
+141,AEI,G,17.6,recent buisness,30,second,66,5,12000,finance,-14,,,0,DR,,,,,,,
+142,RANI,G,16.1,upgrade,7,second,61,8.1,1600,health tech,3.6,2.4,,,UG,,,,,,,
+143,QSG,P,3.3,recent buisness,60,second,64,,260,commercial,-3.6,,,0,DR,Long upside wick. RSI did not pass previous RSI,,,,,,
+144,OCTO,G,21,no,30,second,64,4.4,60,tech,-4,-13.7,,,,,,,,,,
+145,GV,B,15.6,no,21,second,48,1.6,80,consumer,3.7,,,,UG,,,,,,,
+146,SLDB,B,9.9,recent buisness,30,initial,60,15.1,1000,health tech,64,46.6,,,UG,,,,,,,
+147,CABA,B,7.7,no,7,initial,56,15,1400,health tech,-8,,,6.5,UR,,,,,,,n
+148,BROG,G,20.2,recent buisness,21,initial,59,0.3,100,industrial,6.1,,,,UG,,,,,,,
+149,BSLK,G,290.7,no,12 mo,initial,87,2.4,15000,finance,-43.5,,,,,,,,,,,
+150,FUBO,Y,6.5,earnings,7,second,54,10.8,20000,tech,-0.9,,,,UG,,,,,,,
+151,WRAP,Y,9.1,new product,21,cont,57,16.4,220,health tech,17.5,,,,UR,,,,,,,
+152,ZEOX,Y,6.7,New partner,7,cont,58,,10,health tech,-6.2,,,0,DR,,,,,,,n
+153,SPAI,G,58.4,recent buisness,30,second,65,6.1,340,tech,-4.4,,,,,Finished strong into close,,,,,,
+154,SCPH,G,6.6,no,30,initial,62,21,320,health tech,-4.91,,,0,UR,long upside wick,,,,,,n
+155,FFIE,B,19.8,recent buisness,30,initial,58,46.4,20000,cosumer,-2.2,,,,,,,,,,,
+156,PERF,G,17.1,earnings,21,cont,56,0.1,230,tech,-7,,,,,,,,,,,
+157,TOVX,G,12.5,no,30,second,63,11.6,300,health tech,-5.2,,,,,,,,,,,
+158,VERI,Y,9.2,no,30,second,63,13.8,1000,commercial,-9.2,,,0,DR,,,,,,,n
+159,EDAP,P,6,no,3 mo,second,66,,75,health tech,4.9,,,,,,,,,,,
+160,OABI,P,6.3,recent buisness,60,second,64,,530,commercial,,,,,,,,,,,,
+161,PSNY,G,6.4,recent buisness,30,initial,61,,5000,consumer,,,,,,,,,,,,
+162,SMXT,G,8.7,no,7,cont,52,,500,industrial,11.3,-6.3,-8.7,11,UG,,,,,,,n
+163,ORMP,G,19.8,New Partner,60,Initial,71,,700,health tech,-7.8,-10.4,-14.2,0,DR,,,,,,,
+164,APM,Y,42.7,no,60,initial,67,,700,health tech,-29.8,,,0,DR,,,,,,,n
+165,SKYE,G,7.3,recent buisness,14,second,58,,250,health tech,-9.9,,,,DR,,,,,,,
+166,KPRX,Y,6.4,no,7,cont,62,,60,health tech,-2.7,,,4.8,UG,,,,,,,Yes
+167,DM,R,12.3,no,21,initial,46,,400,tech,-12.3,,,0,DR,,,,,,,Yes
